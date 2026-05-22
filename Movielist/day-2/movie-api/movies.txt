@@ -1,0 +1,4 @@
+1. GET /movies/ - Get all movies
+2. POST /movies/ - Create new movie
+3. PATCH /movies/:movieid - Updating movie
+4. DELETE /movies/:movieid - Delete movie

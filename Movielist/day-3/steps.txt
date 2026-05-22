@@ -1,0 +1,17 @@
+API Stpes:
+Goto API folder in the terminal => cd <api-folder>
+Install packages =>  npm install
+Start app => node app.js
+
+UI Stpes:
+Goto UI folder in the terminal => cd <ui-folder>
+Install packages =>  npm install
+Start ui => npm start
+
+Build steps:
+Got ui folder => cd <ui-folder>
+Build react app : npm run build
+Goto api project folder: cd <api-folder>
+Create folder 'public' in <api-folder>
+Copy files in <ui-folder>/build/ to <api-folder>/public
+Run express app: node app.js
